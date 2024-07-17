@@ -1,0 +1,316 @@
+body {
+  margin: 0;
+
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  color: aliceblue;
+  justify-content: space-evenly;
+}
+.uber-right {
+  display: flex;
+  gap: 10px;
+  margin-right: 10%;
+  margin-bottom: -7px;
+}
+.uber-left {
+  display: flex;
+  gap: 29px;
+  margin-left: 18%;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+
+  border: none;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  padding-right: 5px;
+  font-size: 16px;
+}
+.sign {
+  background-color: #ffff;
+  color: black;
+
+  border-radius: 30px;
+  padding: 0;
+  font-size: 13px;
+  width: 72px;
+  height: 36px;
+  margin-top: 22px;
+}
+.uber-1 {
+  font-size: 24px;
+  cursor: pointer;
+}
+.ride {
+  margin-top: 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 19px;
+}
+.ride-1 {
+  width: 72px;
+  height: 36px;
+  margin-top: 17px;
+}
+
+.uber-hover:hover {
+  background-color: gray;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.ride-1:hover {
+  background-color: gray;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.sign:hover {
+  background-color: gray;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.help {
+  padding-left: 16px;
+  padding-top: 6px;
+  padding-bottom: 0;
+  border-radius: 20px;
+}
+.help:hover {
+  background-color: gray;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.section-1 {
+  display: flex;
+  background-color: black;
+}
+.section-first {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  width: 466px;
+  color: white;
+}
+
+.car-img {
+  height: 697px;
+  width: 558px;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 15%;
+  margin-top: 10%;
+}
+.input {
+  display: grid;
+  display: grid;
+  width: 400px;
+  height: 32px;
+  margin: 10px;
+  padding-left: 5px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.go {
+  font-size: 52px;
+  font-weight: 600;
+}
+.hop {
+  font-size: 16px;
+  font-weight: 400;
+  height: 24px;
+  width: 360px;
+  position: relative;
+  right: -9px;
+}
+.section-2 {
+  display: flex;
+}
+.car-1 {
+  position: relative;
+  margin-left: 6%;
+  margin-right: 15%;
+  margin-top: 4%;
+}
+.car-img2 {
+  height: 552px;
+  width: 558px;
+  position: relative;
+  margin-left: 20%;
+  margin-right: 15%;
+  margin-top: 0%;
+}
+.money {
+  text-align: center;
+  position: relative;
+  margin-top: 15%;
+  width: 532px;
+  height: 376px;
+}
+.money-2 {
+  display: flex;
+}
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+.money-3 {
+  border-radius: 15px;
+  width: 28%;
+  margin: 5px;
+}
+.money-4 {
+  width: 48%;
+  text-decoration: underline;
+}
+
+.section-3 {
+  display: flex;
+}
+.money-5 {
+  height: 552px;
+  width: 558px;
+  position: relative;
+}
+h3 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+
+  margin-right: 10%;
+  width: 457px;
+}
+.money-6 {
+  margin-left: 13%;
+  margin-right: 9%;
+  width: 500px;
+}
+.money-7 {
+  display: flex;
+  gap: 5px;
+}
+.last-section {
+  background-color: black;
+  color: white;
+}
+.section-5 {
+  display: flex;
+
+  background-color: #f3f1f1;
+  height: 322px;
+  position: relative;
+  gap: 45px;
+ 
+  margin-top: 5%;
+}
+.scanner{
+    height: 150px;
+    width: 150px;
+    margin-top: 86%;
+    /* background-color: ; */
+}
+.scanner-1{
+    margin-top: 10%;
+}
+.scanner-2{
+    margin-left: -72%;
+}
+.free{
+    margin-left:6%;
+   
+}
+.free-1{
+    font-size: 36px;
+    font-weight: 700;
+    height: 44px;
+    width: 756px;
+    margin-left: 17%;
+}
+.company{
+    margin-left: 14%;
+    margin-top: 3%;
+    display: flex;
+    gap: 155px;
+}
+.center{
+    
+    margin-right: -6%;
+    margin-left: 14%;
+    margin-top: 5%;
+
+}
+.center-1{
+    font-size: 32px;
+    line-height: 70px;
+
+}
+.icons{
+  margin-left: 14%;
+    display: flex;
+    gap: 93px;
+    margin-top: 4%;  
+}
+.icons-1{
+
+  
+    margin-left: 13%;
+    margin-top: 4%;
+}
+
+.insta{
+  height: 37px;
+    width: 128px;
+}
+
+.inc{
+
+    margin-top: 2%;
+    margin-left: 13%;
+    font-size: 10px;
+    color: #ababab;
+}
+.english{
+  
+  
+    text-align: right;
+    /* margin-right: 10%; */
+    top: -179px;
+    position: relative;
+    display: flex;
+    gap: 41px;
+    margin-left: 80%;
+
+}
+
+
+.english-1:hover{
+
+  background-color: gray;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 10px;
+  
+}
+.english-2{
+  display: flex;
+  margin-left: 80%;
+  gap: 18px;
+}
+.english-3{
+  bottom: 170px ;
+  position: relative;
+}
